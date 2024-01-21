@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
-    
-      <style>
-        .font-inter {
-            font-family: 'Inter';
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .font-Inter {
+            font-family: "Inter", sans-serif;
         }
-    </style> 
+
+        .font-Source {
+            font-family: 'Source Serif Pro';
+        }
+    </style>
 </head>
-<body class="mx-5 md:mx-10 lg:mx-20 max-w-[1440px] xl:mx-auto bg-[#FFFFE9]">
+
+<body class="max-w-[1440px] xl:mx-auto bg-[#FFFFE9]">
     <header class="">
         <div class="w-full min-h-12 bg-[#CBCDA9]"></div>
-        <nav class="mt-9 mb-11">      
-        <div class="hidden lg:flex justify-center w-full  font-inter text-lg ">
-          <a  href="#" class="mr-14 ">Home</a>          
-          <a href="#" class="font-bold mr-14">About us</a>
-          <a href="./contact_us.html" class="">Contact Us</a>
-        </div>
-        <div class="block md:hidden">
-          <i class="las la-bars"></i>
-        </div>
+        <nav class="mt-9 mb-11">
+            <div class="hidden lg:flex justify-center w-full  font-Inter text-lg ">
+                <a href="#" class="mr-14 ">Home</a>
+                <a href="#" class="font-bold mr-14">About us</a>
+                <a href="./contact_us.html" class="">Contact Us</a>
+            </div>
+            <div class="block md:hidden">
+                <i class="las la-bars"></i>
+            </div>
         </nav>
-      </header>
-    
+
+        <!-- Banner Section -->
+        <section class="banner font-Source">
+            <div>
+                <figure class="relative flex justify-center items-center ">
+                    <img class="object-cover min-h-[530px]" src="./img/banner.png" alt="">
+                    <div class="absolute top-0 flex justify-center flex-col text-center items-center">
+                        <h1 class="text-8xl text-white mt-32">About Us</h1>
+                        <p class="text-white text-2xl max-w-xl mt-6">From preschool to pre-tertiary, our students enjoy fun, interactive and relevant lessons and
+                            are
+                            empowered to think beyond the confines of the classroom.</p>
+                        <button class="bg-yellow-300 rounded-md font-semibold px-3 mt-11">See more</button>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+    </header>
+    <main>
+
+    </main>
+
     <body>
-        
+
     </body>
-    
-    
+
+
 </body>
+
 </html>

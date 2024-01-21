@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .font-Inter {
+            font-family: "Inter", sans-serif;
+        }
+        .font-Source {
+            font-family: 'Source Serif Pro';
+        }
+    </style>
 </head>
-<body>
-    <h1 style="font-family: 'Source Serif Pro';font-size: 96px;font-weight: 700;">Contact Us</h1>
+
+<body class="max-w-[1440px] xl:mx-auto  bg-[#FFFFE9]">
+
+    <header class="">
+        <div class="w-full min-h-12 bg-[#CBCDA9]"></div>
+        <nav class="my-8 font-Inter">
+            <div class="hidden lg:flex justify-center w-full text-lg ">
+                <a href="./index.html" class="mr-14 ">Home</a>
+                <a href="./index.html" class="mr-14">About us</a>
+                <a href="./contact_us.html" class="font-bold">Contact Us</a>
+            </div>
+            <div class="block lg:hidden ml-3">
+                <i class="las la-bars"></i>
+            </div>
+        </nav>        
+    </header>
+
+    <main class="font-Source">
+        <!-- contact us -->
+        <section>
+            <div class="flex flex-col justify-center items-center text-center mb-20">
+                <h1 class="text-[96px] font-bold">Contact Us</h1>
+                <p class="max-w-[600px] text-2xl font-semibold">Get in touch! Have a question or feedback? Use our contact form or drop us an email. We're here to help!</p>
+            </div>
+
+            <div class="max-w-[866px] mx-auto mb-20">
+                <div class="flex flex-col xl:flex-row">
+                    <div class="bg-[#201F1F] mb-[25px] xl:mb-0 xl:w-1/2 xl:rounded-tl-xl xl:rounded-bl-xl">
+                        <div class="mx-9">
+                        <h1 class="text-4xl text-white mt-[80px]">Get in touch with us</h1>
+                        <p class="text-xl pt-3 text-[#CCC6C6]"><label for="">Name</label></p>
+                        <input type="text" placeholder="Rachel Joe" class="w-full text-[#CCC6C6] mt-2 mb-3 p-3 outline-none rounded bg-[#343333]">
+                        <p class="text-xl pt-3 text-[#CCC6C6]"><label for="">Email</label></p>
+                        <input type="text" placeholder="Rachel@domain.com" class="w-full text-[#CCC6C6] mt-2 mb-3 p-3 outline-none rounded bg-[#343333]">
+                        <p class="text-xl pt-3 text-[#CCC6C6]"><label for="">Message</label></p>
+                        <textarea placeholder="Type your query here....." rows="2" class="w-full text-[#CCC6C6] mt-2 mb-3 p-3 outline-none rounded bg-[#343333] resize-none">  </textarea>  
+                        <button class="bg-[#F3F25B] rounded-[12px] font-semibold px-[25px] py-[10px] mb-3  drop-shadow-md">Send my message</button>                   
+                    </div>                    
+                    </div>
+                    <div class="md:w-1/2">
+                    <figure >
+                        <img class="xl:rounded-tr-xl xl:rounded-br-xl" src="./img/map.png" alt="">
+                    </figure>
+                </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    
+    
     
 </body>
 </html>
